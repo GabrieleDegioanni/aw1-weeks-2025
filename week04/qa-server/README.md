@@ -13,6 +13,8 @@ HTTP Method: GET
 
 Description: Returns all questions.
 
+//Request body: non c'è perchè è una get!
+
 Response: `200 OK` (success) or `500 Internal server error` (generic error). In case of success, returns an array of questions in JSON format (see below). Else, returns an error message.
 
 Response body:
